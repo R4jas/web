@@ -1,0 +1,342 @@
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* section.team-section { */
+    /* display: flex;
+} */
+
+
+.team-people {
+    display: flex;
+
+}
+.teamCard{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    padding: 20px 20px;
+}
+.cardImg{
+    /* background-image: url('https://micdropagency.com/media/pages/home/4c09f36417-1655934960/img-0289-edit-800x.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+h1.cardTitle {
+    margin: 15px 0px 10px 0;
+    font-size: 20px;
+} 
+.cardpost{
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding: 0;
+    font-size: 15px;
+}
+.cardlink{
+color: #ECECEC;
+}
+        
+
+.cardbody{
+    text-align: left;
+}
+
+.Top-Heading{
+    font-size: 40px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+
+
+/* Second Section */
+
+.Box-main{
+    border: 1px solid #333333;
+    max-width: 15vw;
+    padding: 30px;
+    min-height: 40vh;
+    min-width: 20vw;
+    margin: 25px;
+    /* background: linear-gradient(black, black 50%, #00C6FF 50%, #00C6FF); */
+        background-size: 100% 200%;
+        /*trasition effect for background*/
+        transition: background 1s;
+
+}
+.Section-one{
+    display: flex;
+}
+.Section-one .Box-main {
+
+    background: linear-gradient(black, black 50%, #00C6FF 50%, #00C6FF);
+    background-size: 100% 200%;
+
+}
+.Section-two .Box-main {
+    background: linear-gradient(black, black 50%, orange 50%, orange);
+    background-size: 100% 200%;
+}
+.Box-main:hover {
+    transition: all .5s cubic-bezier(0.7, 0, 0.3, 1);
+    background-position: 100% 100%;
+
+}
+
+
+
+.Box-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eyepara{
+    /* display: none; */
+    font-size: 14px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.eyeheading{
+    font-size: 24px;
+    margin: 25px 0;
+}
+
+.Right-eye{
+    margin-left: auto;
+}
+
+.Section-two{
+    display: flex;
+    /* margin: 0 50px; */
+}
+
+.Sec-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+        margin: 0 95px;
+}
+
+
+.thirdsection{
+    background-image: url(./world.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.map-sec{
+    height: 100vh;
+}
+
+
+.Fourth-div{
+    background-color: white;
+    padding: 100px;
+    /* height: 50vh; */
+}
+
+.Fourth-divimg {
+    object-fit: contain;
+}
+
+.Fourth-divhead{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin: 80px 0;
+}
+.Fourth-div .slick-slider.slick-initialized{
+    margin-bottom: 80px;
+}
+
+section.team-section {
+    margin: 50px 100px;
+}
+
+
+
+
+
+.ss2{
+    top: 53.5%;
+        left: 69.5%;
+        transform: translate(-30.4px, -30.4px) rotate(0.00115deg);
+        opacity: 1;
+}
+
+
+.ss3 {
+        top: 52%;
+        left: 76%;
+        transform: translate(-50%, 0%) translate(0px, -30.4px) rotate(0.00115deg);
+        opacity: 1;
+}
+
+
+.ss4 {
+    top: 44.5%;
+        left: 72%;
+        transform: translate(-30.4px, -30.4px) rotate(0.00115deg);
+        opacity: 1;
+}
+
+
+.ss5 {
+    top: 33%;
+        left: 68%;
+        transform: translate(-30.4px, -30.4px) rotate(0.00115deg);
+        opacity: 1;
+}
+
+.ss6 {
+    top: 78%;
+        left: 83.5%;
+        transform: translate(0%, -50%) translate(-30.4px, 0px) rotate(0.00115deg);
+        opacity: 1;
+}
+
+.llg2{
+    background: url('https://micdropagency.com/media/pages/home/8359b6f9c8-1655934959/132795546469-0-200x200.jpg') center center;
+        background-size: cover;
+        
+}
+.llg3 {
+    background: url('https://micdropagency.com/media/pages/home/c00b56895c-1655934961/logo-tennessee-volunteers-200x200.jpg') center center;
+        background-size: cover;
+}
+.llg4 {
+    background: url('https://micdropagency.com/media/pages/home/b411295c70-1655934961/unnamed-200x200.jpg') center center;
+        background-size: cover;
+        
+}
+.llg5 {
+    background: url('https://micdropagency.com/media/pages/home/4f9e58d7b0-1655934961/louisville-city-fc-200x200.png') center center;
+        background-size: cover;
+}
+.llg6 {
+    background: url('https://micdropagency.com/media/pages/home/c96af727fc-1655934961/louisville-basketball-200x200.jpg') center center;
+        background-size: cover;
+}
+
+.ssvg{
+    width:"24px";
+     height:"15px"
+}
+
+.map-box .pin-point svg {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map-box .pin-point .glow-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px var(--primary);
+    animation: glow2 10s linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+.map-box .pin-point .glow-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px var(--primary);
+    animation: glow1 10s linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+.map-box .pin-point:nth-of-type(4) .glow-1,
+.map-box .pin-point:nth-of-type(4) .glow-2 {
+    animation-delay: 6s;
+}
+
+
+
+.navigation-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+}
+
+.navigation-item {
+    display: flex;
+}
+
+.navigation-links{
+    margin: 0 50px;
+}
+.banner{
+    height:80vh;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   flex-direction: column;
+   /* transform: translate(0%, 6.968%) translate3d(0px, 0px, 0px) rotate(0.00115deg); */
+}
+h1.ss {
+    margin: 0;
+}
+h1.banner-title {
+    font-size: 54px;
+    margin: 0;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.headx{
+    font-size: 64px;
+    margin: 150px 20px;
+}
+
+
+.twoeye svg{
+        position: absolute;
+            left: 0;
+            top: 100%;
+            transform: translateY(50%);
+            transition: all .5s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.oneeye svg{
+    position: relative;
+        height: 2em;
+        transition: all .5s cubic-bezier(0.7, 0, 0.3, 1);
+}
+    
+
+    .Left-eye{
+        position: relative;
+            height: 2.1em;
+            overflow: hidden;
+    }
